@@ -1,3 +1,40 @@
 body {
     font-family: 'Ibarra Real Nova', serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 8%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    margin: 0;
+    background-repeat: no-repeat;
 }
